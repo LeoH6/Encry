@@ -1,5 +1,16 @@
+
 import random
 from colorama import Fore
+from tkinter import *
+
+master = Tk()
+w = Label(master, text='Encry')
+w.pack()
+
+Label(master, text="Encrypt").grid(row=0)
+Label(master, text="Decrypt").grid(row=1)
+master.mainloop()
+
 
 #LeoH6
 
